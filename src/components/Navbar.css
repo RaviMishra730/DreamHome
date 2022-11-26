@@ -22,14 +22,21 @@ li{
     font-weight: 500;
     font-size: 1.2rem;
 }
+li:hover{
+    color: rgb(68, 30, 236);
+}
 .hamburger{
     display: none;
 }
 /* Adding the Media Query  */
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 728px) {
     .hamburger{
         display: block;
+    }
+    .navbar span{
+        color: #5651e5;
+        font-size: 1.4rem;
     }
     .navbar .nav-menu{
         position: absolute;

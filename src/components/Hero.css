@@ -68,6 +68,22 @@
     border-radius: 8px;
     cursor: pointer;
 }
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px rgb(18, 3, 72), 0 0 20px rgb(11, 4, 58), 0 0 30px #350a74, 0 0 40px #240660, 0 0 50px #21075e, 0 0 60px #17043c, 0 0 70px #2c0951;
+    }
+    
+    to {
+      text-shadow: 0 0 20px rgb(109, 59, 208), 0 0 30px #8319d4, 0 0 40px #6532dd, 0 0 50px #592fe1, 0 0 60px #381d7a, 0 0 70px #8331dc, 0 0 80px #2c157e;
+    }
+  }
 @media screen and (max-width:940px){
     .hero{
         height: 70vh;

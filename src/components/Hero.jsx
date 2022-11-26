@@ -5,11 +5,11 @@ const Hero = () => {
     return (
         <div className="hero">
             <div className="content">
-                <h1>Find the perfect Place</h1>
-                <p className='search-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae, labore?</p>
+                <h1 className='glow'> Aao Kabhi Haveli Pe </h1>
+                <p className='search-text'>Welcome, Aapki Apni <span>MyHaveli</span>.Com Website Pe</p>
                 <form className='search'>
                     <div>
-                        <input type="text" placeholder='Enter keyword...' />
+                        <input type="text" placeholder='Haveli..' />
                     </div>
                     <div className="radio">
                         <input type="radio" checked />

@@ -9,7 +9,7 @@ import Commercial_3 from '../assets/Commercial-3.jpg';
 const Content = () => {
     return (
         <div className="best">
-            <h1>Find Best Rated Property</h1>
+            <h1>Aapki apni Haveli</h1>
             <div>
                 <p><span className="bold">All</span></p>
                 <p>Commercial</p>
